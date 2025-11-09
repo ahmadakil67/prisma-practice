@@ -10,46 +10,54 @@ This includes creating, reading, updating, deleting, and searching users in a da
 
 ## Installation
 
-### Clone the project
+#### Clone the project
 git clone https://github.com/yourusername/hello-prisma.git
 
-### Move into the directory
+#### Move into the directory
 cd hello-prisma
 
-### Install dependencies
+#### Install dependencies
 npm install
 
 ## Database Setup
 
-# 1. Set up your .env file
+#### Set up your .env file
 DATABASE_URL="your_database_connection_string"
 
-# 2. Generate Prisma client
+#### Generate Prisma client
 npx prisma generate
 
-# 3. Apply your schema to the database
+#### Apply your schema to the database
 npx prisma migrate dev --name init
 
 
 ## Running the Project
 
-# Run with ts-node
+#### Run with ts-node
 npx ts-node index.ts
 
-# Or, if defined in package.json
+#### Or, if defined in package.json
 npm start
 
 
 ## Features Covered
 
 ✅ prisma.user.create() – Add a new user
+-
 ✅ prisma.user.findMany() – Get all users
+-
 ✅ prisma.user.findUnique() – Find user by unique field
+-
 ✅ prisma.user.update() – Update user info
+-
 ✅ prisma.user.delete() – Remove user
+-
 ✅ prisma.user.count() – Count total users
+-
 ✅ Filtering with contains, startsWith, etc.
+-
 ✅ Sorting with orderBy
+-
 
 ## Example Outputs
 Inserted: { id: 1, name: 'Ahmad Akil', email: 'ahmad@example.com' }
