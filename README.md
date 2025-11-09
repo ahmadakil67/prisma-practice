@@ -42,22 +42,14 @@ npm start
 
 ## Features Covered
 
-✅ prisma.user.create() – Add a new user
--
-✅ prisma.user.findMany() – Get all users
--
-✅ prisma.user.findUnique() – Find user by unique field
--
-✅ prisma.user.update() – Update user info
--
-✅ prisma.user.delete() – Remove user
--
-✅ prisma.user.count() – Count total users
--
-✅ Filtering with contains, startsWith, etc.
--
-✅ Sorting with orderBy
--
+#### ✅ prisma.user.create() – Add a new user
+#### ✅ prisma.user.findMany() – Get all users
+#### ✅ prisma.user.findUnique() – Find user by unique field
+#### ✅ prisma.user.update() – Update user info
+#### ✅ prisma.user.delete() – Remove user
+#### ✅ prisma.user.count() – Count total users
+#### ✅ Filtering with contains, startsWith, etc.
+#### ✅ Sorting with orderBy
 
 ## Example Outputs
 Inserted: { id: 1, name: 'Ahmad Akil', email: 'ahmad@example.com' }
@@ -66,9 +58,9 @@ Count: 5
 
 ## Tech Stack
 
-TypeScript
-Prisma ORM
-SQLite (or your DB)
-Node.js
+- TypeScript
+- Prisma ORM
+- SQLite (or your DB)
+- Node.js
 
 
